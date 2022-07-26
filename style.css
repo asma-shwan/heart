@@ -1,0 +1,28 @@
+div{
+  background-image: url("https://cdn0.iconfinder.com/data/icons/love-hand-drawn-color/64/heart-2-128.png");  
+height: 100px;
+width: 100px;
+background-size: cover;
+position: absolute;
+left:50%;
+top:50%;
+pointer-events: none;
+transform: translate(-50%,-50%);
+animation: ani 10s linear;
+}
+
+    
+body{
+ margin: 0;
+ height: 100vh;
+}
+@keyframes ani{
+0%{
+  transform: translate(-50%,-50%);
+  opacity: 1;
+}
+100%{
+transform: translate(-50%,5000%);
+opacity: 0;
+}
+}
